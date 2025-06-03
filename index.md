@@ -10,7 +10,8 @@
 
     <p>Projetos envolvendo HTML5 e CSS3</p>
     <ul>
-        <li><a href="https://lucasdias47.github.io/Site-Android/" target="_blank">Projeto Android</a>
+        <li>
+            <a href="https://lucasdias47.github.io/Site-Android/" target="_blank">Projeto Android</a>
         </li>
         <li>
             <a href="https://lucasdias47.github.io/Projeto-Firefox/" target="_blank">Projeto Firefox</a>
