@@ -13,7 +13,7 @@
         <li><a href="https://lucasdias47.github.io/Site-Android/" target="_blank">Projeto Android</a>
         </li>
         <li>
-            <a href="">Projeto Firefox</a>
+            <a href="https://lucasdias47.github.io/Projeto-Firefox/" target="_blank">Projeto Firefox</a>
         </li>
     </ul>
 </body>
