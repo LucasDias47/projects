@@ -7,7 +7,13 @@
 #2AA0A2
 #3263C0
 
+
+
+
+
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --cor1:#080A4B;
@@ -15,9 +21,12 @@
     --cor3:#71A5C0;
     --cor4:#41BCFA;
     --cor5:#2AA0A2;
+
+    --fonte-destaque:'Bebas Neue','cursive';
+    --fonte-padrao: Arial, Verdana,Helvetica, sans-serif;
 }
 
-main{
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -27,8 +36,105 @@ body{
 }
 
 header{
-    background-color: var();
+    background-color: var(--cor1);
     min-height: 150px;
     text-align: center;
     padding: 40px;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p{
+    font-family:var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+
+main{
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow:0px 0px 0px rgba(0, 0, 0, 0.418); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main img{
+    width: 50%;
+    display: block;
+    margin-top: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+main h2{
+    color: var(--cor2);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 4.5em;
+    
+    
+}
+
+main h2:hover{
+    color: var(--cor4);
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+   
+}
+
+main ul{
+    padding: 0;
+    list-style-position: inside;
+    text-align: center;
+    
+}
+
+main ul li{
+    
+    margin-bottom: 40px;
+    list-style-type: disc;
+}
+
+main ul li a{
+    text-decoration: none;
+}
+
+main ul li h2{
+    font-family: var(--fonte-destaque);
+    font-size: 4.5em;
+    color: var(--cor2);
+    display: inline;
+    margin: auto;
+}
+
+main ul li img{
+    display: block;
+    margin: auto;
+    max-width: 250px;
 }
